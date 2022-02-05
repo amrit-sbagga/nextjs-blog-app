@@ -1,5 +1,10 @@
-import React from 'react';
+import React, { Fragment } from "react";
 
-export default function Home() {
-  return <div></div>;
+export default function HomePage() {
+  return (
+    <Fragment>
+      <Hero />
+      <FeaturedPosts />
+    </Fragment>
+  );
 }
