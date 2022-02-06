@@ -1,5 +1,6 @@
-import React from 'react';
+import React from "react";
+import classes from "./logo.module.css";
 
 export default function Logo() {
-  return <div></div>;
+  return <div className={classes.logo}>Amrit' Next Blog</div>;
 }
